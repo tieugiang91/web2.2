@@ -1,0 +1,109 @@
+body {
+  margin: 0px;
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10.5pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+
+  padding: 40px;
+}
+
+/* 1. Personal information */
+/* 1.0. General */
+header {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+div#info {
+  display: inline-block;
+  width: 100%;
+}
+
+.label:first-letter {
+  text-transform: uppercase;
+}
+
+.label {
+  display: inline-block;
+  font-weight: bold;
+  width: 100px;
+}
+
+/* 1.1. Personal information: specified */
+h1 {
+  text-transform: capitalize;
+  color: #0e2452;
+  margin: 0px;
+  font-size: 32px;
+}
+
+#address {
+  text-transform: capitalize;
+}
+
+#gender {
+  text-transform: capitalize;
+}
+
+/* 1.2. Image */
+#profile-img {
+  display: inline;
+  float: right;
+}
+
+img {
+  width: 113px;
+  height: 113px;
+}
+
+/* 2. Detailed information */
+
+.section-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+}
+
+.section-content {
+  display: inline-block;
+}
+
+.time {
+  float: left;
+}
+
+.dos {
+  float: right;
+}
+
+/* 2.2. Detailed information: specified */
+.section:nth-child(2) {
+  text-align: justify;
+}
